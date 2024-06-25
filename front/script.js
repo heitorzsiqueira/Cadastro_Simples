@@ -10,7 +10,7 @@ function cadastrarUsuario() {
 
 
     // URL da API no localhost
-    const url = 'http://localhost:8800';
+    const url = 'https://apiheitor.netlify.app';
 
     // Dados a serem enviados para a API
     const data = { nome: name, idade: parseInt(idade) };
